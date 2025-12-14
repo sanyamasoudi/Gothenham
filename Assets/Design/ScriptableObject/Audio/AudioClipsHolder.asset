@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3551b7ccdb933c40a639f80f5f2e08a, type: 3}
+  m_Name: AudioClipsHolder
+  m_EditorClassIdentifier: 
+  audioClips:
+  - name: Main
+    type: {fileID: 11400000, guid: 953ae5bc3ed81464686eb589505bbbf9, type: 2}
+    useChannel: 1
+    audioChannel: {fileID: 11400000, guid: 9fecafceb1835ed4bb7f9b407e825e3e, type: 2}
+    audioClips:
+    - clip: {fileID: 8300000, guid: fd593a8035d6fa446b9a73ac44d6085a, type: 3}
+      playAfterSeconds: 0
+      volume: 1
+      isRandomVolume: 0
+      pitch: 1
+      isRandomPitch: 0
+      stereoPan: 0
+      isRandomPan: 0
+      playOnAwake: 1
+      loop: 1
+      mute: 0
+      isOneShot: 0
+  - name: Environment
+    type: {fileID: 11400000, guid: 1c84a8fb9c5831d42a7b780742ad60b0, type: 2}
+    useChannel: 1
+    audioChannel: {fileID: 11400000, guid: 2659e9765b085634f98cc64f54402f12, type: 2}
+    audioClips:
+    - clip: {fileID: 8300000, guid: 7ee478111e261f94289c05138570fa08, type: 3}
+      playAfterSeconds: 0
+      volume: 1
+      isRandomVolume: 0
+      pitch: 1
+      isRandomPitch: 0
+      stereoPan: 0
+      isRandomPan: 1
+      playOnAwake: 1
+      loop: 1
+      mute: 0
+      isOneShot: 0
+  - name: Walking
+    type: {fileID: 11400000, guid: c416af9826213e846b4516ecc6977767, type: 2}
+    useChannel: 1
+    audioChannel: {fileID: 11400000, guid: 73bd0fc4cb6c2d3419de6a5c086c6be2, type: 2}
+    audioClips:
+    - clip: {fileID: 8300000, guid: 520f8dbd56a3e0e45817e3bfc04216c4, type: 3}
+      playAfterSeconds: 0
+      volume: 1
+      isRandomVolume: 0
+      pitch: 1
+      isRandomPitch: 0
+      stereoPan: 0
+      isRandomPan: 0
+      playOnAwake: 0
+      loop: 1
+      mute: 0
+      isOneShot: 0
+  - name: Running
+    type: {fileID: 11400000, guid: 8a3df50bcbe3fd54bb0f6e1cdea9c2d8, type: 2}
+    useChannel: 1
+    audioChannel: {fileID: 11400000, guid: 73bd0fc4cb6c2d3419de6a5c086c6be2, type: 2}
+    audioClips:
+    - clip: {fileID: 8300000, guid: 45a2cca44444aa34db5e3bdfee498fc3, type: 3}
+      playAfterSeconds: 0
+      volume: 1
+      isRandomVolume: 0
+      pitch: 1
+      isRandomPitch: 0
+      stereoPan: 0
+      isRandomPan: 0
+      playOnAwake: 0
+      loop: 1
+      mute: 0
+      isOneShot: 0
+  - name: Alert
+    type: {fileID: 11400000, guid: 04710b7182c150b4fb20a8172ad5c6cc, type: 2}
+    useChannel: 1
+    audioChannel: {fileID: 11400000, guid: 73bd0fc4cb6c2d3419de6a5c086c6be2, type: 2}
+    audioClips:
+    - clip: {fileID: 8300000, guid: 279674a0faa66b8418cf091c3f0626a2, type: 3}
+      playAfterSeconds: 0
+      volume: 1
+      isRandomVolume: 0
+      pitch: 1
+      isRandomPitch: 0
+      stereoPan: 0
+      isRandomPan: 0
+      playOnAwake: 0
+      loop: 1
+      mute: 0
+      isOneShot: 0
+  - name: Radio
+    type: {fileID: 11400000, guid: fef9566550529a740bcd954a98cf3cf2, type: 2}
+    useChannel: 1
+    audioChannel: {fileID: 11400000, guid: 027f98fb192c8fd4895940cb1587c94f, type: 2}
+    audioClips:
+    - clip: {fileID: 8300000, guid: fed0f15f936a50f488720c4ce402dca3, type: 3}
+      playAfterSeconds: 0
+      volume: 1
+      isRandomVolume: 0
+      pitch: 1
+      isRandomPitch: 0
+      stereoPan: 0
+      isRandomPan: 0
+      playOnAwake: 0
+      loop: 1
+      mute: 0
+      isOneShot: 0
